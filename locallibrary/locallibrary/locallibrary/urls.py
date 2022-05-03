@@ -31,4 +31,4 @@ urlpatterns += [
     path('', RedirectView.as_view(url='/catalog/')),
 ]
 
-urlpatterns += static(settings.STATUC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
